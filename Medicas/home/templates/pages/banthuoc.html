@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %} Bán thuốc {% endblock %}</title>
+        <link rel="stylesheet" href="css/banthuoc.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    </head>
+
+    <body>
+    {% block content %}
+        <div class="header">
+            <div class="container">
+                <img class="icon" src="image/health.png" alt="logo">
+                <a class="logo" href="#">MEDICAS </a>
+                <h1 class="slogan">Chăm sóc sức khỏe - Chia sẻ niềm vui</h1>
+            </div>
+
+            <div class="main_menu">
+                <div>
+                    <ul class="menu">
+                        <li class="current"><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Tư vấn sức khỏe</a></li>
+                        <li><a href="#">Tư vấn thuốc</a></li>
+                     </ul>
+                </div>
+                <div>
+                    <ul class="login">
+                        <li><a>Đăng nhập/đăng kí</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>   
+        <div class="Medicine">
+                <h1 class="title-block">Nhà thuốc trực tuyến thân thiện cho cả gia đình</h1>
+                <p>
+                   "Mọi nhu cầu chăm sóc sức khoẻ của gia đình bạn sẽ được đáp ứng nhanh chóng, tận tâm, và hoàn toàn trực tuyến."
+                </p>                                    
+               <div class="list-item" >
+                   <div class="item1 item__stype" >
+                        <a href="index.html">
+                            <div class="item" >                                
+                                <i class="fas fa-clinic-medical color__white icon__stype"></i>
+                                <p class="font"><b>Tủ thuốc gia đình</b></p>
+                            </div>
+                        </a>
+                   </div>
+                   <div class="item2 item__stype" >
+                        <a href="index.html"> 
+                            <div class="item">      
+                            <i class="fas fa-lungs-virus color__white icon__stype"></i>
+                                <p class="font"><b>Tủ Thuốc Covid</b></p>
+                            </div>
+                        </a>
+                   </div>
+                   <div class="item3 item__stype" >
+                    <a href="index.html">
+                        <div class="item" >                                
+                            <i class="fas fa-user-md color__white icon__stype"></i>
+                            <p class="font"><b>Chăm sóc cá nhân</b></p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="item4 item__stype" >
+                        <a href="index.html">
+                            <div class="item" >                                
+                                <i class="fas fa-pump-soap color__white icon__stype"></i>
+                                <p class="font"><b>Chăm sóc sắc đẹp</b></p>
+                            </div>
+                        </a>
+                   </div>
+                   <div class="item5 item__stype" >
+                        <a href="index.html">
+                            <div class="item" >                                
+                                <i class="fas fa-stethoscope color__white icon__stype"></i>
+                                <p class="font"><b>Dụng cụ y tế</b></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item6 item__stype" >
+                        <a href="index.html">
+                            <div class="item" >                                
+                                <i class="fas fa-tablets color__white icon__stype"></i>
+                                <p class="font"><b>Thực phẩm chức năng</b></p>
+                            </div>
+                        </a>
+                    </div>               
+               </div>
+        </div>    
+        <footer>
+            <div class="contact">
+               <ul class="cont">
+                <li> <span>Điện thoại</span> 09934923</li>
+                <li> <span>Hotline</span> 190063689</li>
+                <li> <span>Hỗ trợ</span> support@health.com</li>
+               </ul>
+            </div>  
+        </footer>  
+    {% endblock %}                                   
+    </body>
+
+</html>
